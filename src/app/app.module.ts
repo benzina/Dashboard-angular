@@ -8,6 +8,7 @@ import { SidebarComponent } from './components/dashboard/sidebar/sidebar.compone
 import { ContentComponent } from './components/dashboard/content/content.component';
 import { FooterComponent } from './components/dashboard/content/footer/footer.component';
 import { MainContentComponent } from './components/dashboard/content/main-content/main-content.component';
+import { TopbarComponent } from './components/dashboard/content/main-content/topbar/topbar.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { MainContentComponent } from './components/dashboard/content/main-conten
     SidebarComponent,
     ContentComponent,
     FooterComponent,
-    MainContentComponent
+    MainContentComponent,
+    TopbarComponent
   ],
   imports: [
     BrowserModule,
